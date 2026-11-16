@@ -51,8 +51,8 @@ export const projects: Project[] = [
     kind: "Personal",
     href: "https://audiophile-prod.netlify.app/",
     description:
-      "Fullstack store for audio gear, with product pages, a cart, checkout, and an admin panel for orders.",
-    stack: ["Next.js", "TypeScript", "Tailwind", "Zustand", "Prisma", "shadcn/ui", "React Hook Form"],
+      "Fullstack store for audio gear. Next.js serves the shop, and a NestJS API handles Google and email sign-in, saved addresses, and orders.",
+    stack: ["Next.js", "NEST.JS","TypeScript", "Tailwind", "Zustand", "Prisma", "shadcn/ui", "React Hook Form"],
   },
   {
     title: "Finance Dashboard",
